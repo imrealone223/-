@@ -4,9 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel = 'stylesheet' href = 'style.css'
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel='stylesheet' href='style.css'>
+    
 </head>
-<body>
-<script> src = 'script.js' </script>
+<body> 
+    <div>
+        <div class='head'></div>
+        <img class='logo' src='img/image1.png' alt = 'logo'> 
+        <div class="text">Морская еда онлайн</div>  
+        <div class="menu"> 
+            <button class="cat">Категории</button>
+            <button class="top">Топ товаров</button>
+            <button class="kor">Корзина🗑</button>
+        </div>
+    </div>
+    <main>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide--one">
+              <div>
+                <h2>Медуза</h2>
+                <p>3 999 р.</p>
+                <a class="meduza" href="https://en.wikipedia.org/wiki/Jellyfish" target="_blank">заказать</a>
+              </div>
+            </div>
+            <div class="swiper-slide swiper-slide--two">
+              <div>
+                <h2>Морская лошадка</h2>
+                <p>
+                  12 999 р.
+                </p>
+                <a class="horse" href="https://en.wikipedia.org/wiki/Seahorse" target="_blank">заказать</a>
+              </div>
+            </div>
+      
+            <div class="swiper-slide swiper-slide--three">
+      
+              <div>
+                <h2>Осьминог</h2>
+                <p>
+                  15 999 р.
+                </p>
+                <a class="osminog" href="https://en.wikipedia.org/wiki/Octopus" target="_blank">заказать</a>
+              </div>
+            </div>
+      
+            <div class="swiper-slide swiper-slide--four">
+      
+              <div>
+                <h2>Акула</h2>
+                <p>
+                  57 999 р.
+                </p>
+                <a class="shark" href="https://en.wikipedia.org/wiki/Shark" target="_blank">заказать</a>
+              </div>
+            </div>
+      
+            <div class="swiper-slide swiper-slide--five">
+      
+              <div>
+                <h2>Дельфин</h2>
+                <p>
+                  18 999 р. 
+                </p>
+                <a class="delphin" href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">заказать</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <img src="https://cdn.pixabay.com/photo/2021/11/04/19/39/jellyfish-6769173_960_720.png" alt="" class="bg">
+        <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
+      </main>
+      <div class="korz">
+            
+      </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+<script src = 'script.js'></script>
 </body>
-</html>  
+</html>
