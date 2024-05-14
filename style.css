@@ -192,7 +192,7 @@ main > div > a:hover {
   font-weight: 300;
   padding: 0 1.563rem;
   line-height: 1.6;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
@@ -220,6 +220,22 @@ main > div > a:hover {
   opacity: 1;
 }
 
+.order{
+  width: 170px;
+  font-size: 40px;
+  color: white;
+  border: 3px solid white;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 15px;
+  text-align: center;
+}
+.order:active{
+  background-color: green;
+}
+.order:hover{
+  border: 3px solid rgb(109, 227, 156);
+}
 .swiper-slide--one {
   background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
     url("https://images.unsplash.com/photo-1628944682084-831f35256163?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80")
@@ -255,6 +271,12 @@ main > div > a:hover {
   background-image: none;
 }
 
+
+h3{
+  display: inline;
+  /* width: 100%; */
+  /* border: 1px solid black; */
+}
 @media screen and (min-width: 48rem) {
   main {
     display: flex;
