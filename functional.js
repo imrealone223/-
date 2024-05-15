@@ -37,22 +37,27 @@ let basket_array = []
 meduza1.addEventListener('click',function(){
     basket_array.push(meduza)
     total_position.innerHTML =  +total_position.innerHTML + 1
+    console.log(total_position.innerHTML)
 })
 horse1.addEventListener('click',function(){
     basket_array.push(horse)
     total_position.innerHTML =  +total_position.innerHTML + 1
+    console.log(total_position.innerHTML)
 })
 osminog1.addEventListener('click',function(){
     basket_array.push(osminog)
     total_position.innerHTML =  +total_position.innerHTML + 1
+    console.log(total_position.innerHTML)
 })
 shark1.addEventListener('click',function(){
     basket_array.push(shark)
     total_position.innerHTML =  +total_position.innerHTML + 1
+    console.log(total_position.innerHTML)
 })
 delphin1.addEventListener('click',function(){
     basket_array.push(delphin)
     total_position.innerHTML =  +total_position.innerHTML + 1
+    console.log(total_position.innerHTML)
 })
 
 let basket = document.querySelector('.basket')
