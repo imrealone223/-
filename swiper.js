@@ -15,7 +15,7 @@ var swiper = new Swiper(".swiper", {
     mousewheel: {
       thresholdDelta: 70
     },
-    loop: true,
+    loop: false,
     pagination: {
       el: ".swiper-pagination",
       clickable: true
